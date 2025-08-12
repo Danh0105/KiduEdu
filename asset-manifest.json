@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/KiduEdu/static/css/main.73087f2b.css",
+    "main.js": "/KiduEdu/static/js/main.1c3dab71.js",
+    "static/media/Carouse3.jpg": "/KiduEdu/static/media/Carouse3.704e4a824824c2ea537c.jpg",
+    "static/media/Carouse2.jpg": "/KiduEdu/static/media/Carouse2.9562773db99a07b5d4d6.jpg",
+    "static/media/Carouse1.jpg": "/KiduEdu/static/media/Carouse1.5f2e5e077977e6eecec5.jpg",
+    "static/media/CDS.png": "/KiduEdu/static/media/CDS.4decace0388188ed61d9.png",
+    "static/media/STEM.png": "/KiduEdu/static/media/STEM.e534962bb9fd7a728347.png",
+    "static/media/DIENLANH.png": "/KiduEdu/static/media/DIENLANH.84c7cad7dc93fc3707bb.png",
+    "static/media/MAYTINH.png": "/KiduEdu/static/media/MAYTINH.59c85a206f6b8b60c53e.png",
+    "static/media/DCHT.png": "/KiduEdu/static/media/DCHT.72836326f1b957d5dce6.png",
+    "static/media/ROBOT.png": "/KiduEdu/static/media/ROBOT.7da7c253fa1f615385c3.png",
+    "static/media/intro.jpg": "/KiduEdu/static/media/intro.60ecc3fa966fb42947b5.jpg",
+    "static/media/HDKH1.jpg": "/KiduEdu/static/media/HDKH1.53c79e9095eec91a9e91.jpg",
+    "static/media/HDKH4.jpg": "/KiduEdu/static/media/HDKH4.4cab4684127717fa5538.jpg",
+    "static/media/HDKH3.jpg": "/KiduEdu/static/media/HDKH3.b2be91faed42f66f371a.jpg",
+    "static/media/HDKH2.jpg": "/KiduEdu/static/media/HDKH2.8d4026cf8fd3f889dcfc.jpg",
+    "static/media/zalo.png": "/KiduEdu/static/media/zalo.41525937214060484b53.png",
+    "static/media/Logo.png": "/KiduEdu/static/media/Logo.f93122d093d837ab1352.png",
+    "static/media/logoFooter.png": "/KiduEdu/static/media/logoFooter.f93122d093d837ab1352.png",
+    "static/media/product1.png": "/KiduEdu/static/media/product1.c1c8851d7021960c715a.png",
+    "static/media/slick.svg": "/KiduEdu/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/KiduEdu/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/KiduEdu/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/KiduEdu/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/KiduEdu/index.html",
+    "static/media/cart-shopping-solid-full.svg": "/KiduEdu/static/media/cart-shopping-solid-full.78ea86f6d110094ae3172a6388f12243.svg",
+    "static/media/heart-solid-full.svg": "/KiduEdu/static/media/heart-solid-full.1bd135f158ddeccccd6642124c026b46.svg",
+    "static/media/user-solid-full.svg": "/KiduEdu/static/media/user-solid-full.08dd1c96db88ec902d47edcb2a36c219.svg",
+    "main.73087f2b.css.map": "/KiduEdu/static/css/main.73087f2b.css.map",
+    "main.1c3dab71.js.map": "/KiduEdu/static/js/main.1c3dab71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73087f2b.css",
+    "static/js/main.1c3dab71.js"
+  ]
+}
