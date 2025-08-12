@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+.intro {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.nav-link {
+  padding: 8px 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link.active {
+  color: red;
+  /* hoặc màu bạn muốn */
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  /* ví dụ highlight */
+}

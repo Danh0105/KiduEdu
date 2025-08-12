@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.arrow-btn:hover .arrow-icon{
+  transform: rotate(45deg);
+  /* Xoay 90 độ để thành mũi tên ngang */
+}
