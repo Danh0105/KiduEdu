@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 
 // Layouts
 import UserLayout from "../layouts/user/UserLayout";
@@ -17,7 +17,7 @@ import Cart from "../pages/user/Cart";
 import About from "../pages/user/About";
 export default function AppRoutes() {
     return (
-        <Router>
+        <BrowserRouter basename="/KiduEdu">
             <Routes>
 
                 {/* User routes */}
@@ -65,6 +65,6 @@ export default function AppRoutes() {
                 {/* <Route path="*" element={<NotFound />} /> */}
 
             </Routes>
-        </Router>
+        </BrowserRouter >
     );
 }
