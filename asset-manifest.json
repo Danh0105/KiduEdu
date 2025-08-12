@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KiduEdu/static/css/main.73087f2b.css",
-    "main.js": "/KiduEdu/static/js/main.1c3dab71.js",
+    "main.js": "/KiduEdu/static/js/main.e8865232.js",
     "static/media/Carouse3.jpg": "/KiduEdu/static/media/Carouse3.704e4a824824c2ea537c.jpg",
     "static/media/Carouse2.jpg": "/KiduEdu/static/media/Carouse2.9562773db99a07b5d4d6.jpg",
     "static/media/Carouse1.jpg": "/KiduEdu/static/media/Carouse1.5f2e5e077977e6eecec5.jpg",
@@ -29,10 +29,10 @@
     "static/media/heart-solid-full.svg": "/KiduEdu/static/media/heart-solid-full.1bd135f158ddeccccd6642124c026b46.svg",
     "static/media/user-solid-full.svg": "/KiduEdu/static/media/user-solid-full.08dd1c96db88ec902d47edcb2a36c219.svg",
     "main.73087f2b.css.map": "/KiduEdu/static/css/main.73087f2b.css.map",
-    "main.1c3dab71.js.map": "/KiduEdu/static/js/main.1c3dab71.js.map"
+    "main.e8865232.js.map": "/KiduEdu/static/js/main.e8865232.js.map"
   },
   "entrypoints": [
     "static/css/main.73087f2b.css",
-    "static/js/main.1c3dab71.js"
+    "static/js/main.e8865232.js"
   ]
 }
