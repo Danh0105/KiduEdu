@@ -7,7 +7,7 @@ export default class CheckboxProduct extends Component {
                 <input
                     class="form-check-input"
                     type="checkbox"
-                    value=""
+                    value={this.props.id}
                     id="checkDefault"
 
                 />

@@ -7,7 +7,7 @@ export default class Dropdown extends Component {
                 <button style={{ color: "rgba(0,0,0,.54)", fontSize: "14px", lineHeight: "16px" }} className="btn dropdown-toggle border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Phân loại hàng:
                 </button>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu" style={{ width: "400px" }}>
                     <li className='p-2'>
                         <div className='d-flex flex-row bd-highlight mb-3'>
                             <p className='me-2'>Loại hàng: </p>

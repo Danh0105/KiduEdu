@@ -10,6 +10,8 @@ import HDKH1 from '../../assets/user/HDKH1.jpg';
 import HDKH2 from '../../assets/user/HDKH2.jpg';
 import HDKH3 from '../../assets/user/HDKH3.jpg';
 import HDKH4 from '../../assets/user/HDKH4.jpg';
+import Carousel from '../../components/user/Carousel';
+
 export default function About() {
 
     // const [previewUrl, setPreviewUrl] = useState("");
@@ -39,6 +41,7 @@ export default function About() {
 
     return (
         <div>
+            <Carousel />
             <div className='container'>
                 <div className="d-flex justify-content-center">
                     <div className="p-2 bd-highlight intro" style={{ width: "570px" }}>

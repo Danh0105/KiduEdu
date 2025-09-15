@@ -13,7 +13,6 @@ export default function Slick1() {
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    centerPadding: '50px',
                     slidesToShow: 3
                 }
             },

@@ -58,11 +58,106 @@ input[type=number] {
   text-decoration: none;
   color: black;
 }
+.nav-link-menu{
+  padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+}
 
-.nav-link.active {
+.nav-link-menu.active {
   color: red;
   /* hoặc màu bạn muốn */
   font-weight: bold;
   border-bottom: 2px solid red;
   /* ví dụ highlight */
+}
+.modal-content {
+  z-index: 1050 !important;
+  /* Đảm bảo modal luôn hiển thị trên cùng */
+}
+
+.ck-editor__editable {
+  min-height: 200px;
+  /* Đảm bảo CKEditor có đủ không gian */
+}
+/* Giảm khoảng cách giữa các thumbnail */
+/* Bỏ khoảng cách mặc định giữa các slide thumbnail */
+.slick-slide {
+  padding: 0 !important;
+  margin: 0 !important;
+
+}
+
+.slick-track {
+  display: flex !important;
+  gap: 4px;
+
+}
+/* Thumbnail style */
+.thumb-wrapper img {
+  height: 70px;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.zoom-container {
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* pulse (phóng to thu nhỏ nhịp nhàng) */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-animation {
+  animation: pulse 1.5s infinite;
+}
+
+/* bounce (nhảy lên nhẹ) */
+@keyframes bounce {
+
+  0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.15);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+}
+
+.bounce-animation {
+  animation: bounce 1.2s infinite;
+}
+.custom-dropdown .dropdown-menu {
+  min-width: unset !important;
+  width: auto !important;
+}
+.dropdown-item:hover{
+  background-color: rgb(169, 166, 167);
+}
+.card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /* chỉ hiện 2 dòng */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

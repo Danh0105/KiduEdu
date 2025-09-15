@@ -5,16 +5,16 @@ export default function Menu() {
     return (
         <>
             <li className="nav-item">
-                <NavLink to="/" className={({ isActive }) => `nav-link ${isActive ? "active" : "nav-link px-2 text-body-secondary text-dark"}`}>Trang chủ</NavLink>
+                <NavLink to="/" className={({ isActive }) => `nav-link-menu ${isActive ? "active" : "nav-link-menu px-2 "}`}>Trang chủ</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className={({ isActive }) => `nav-link ${isActive ? "active" : "nav-link px-2 text-body-secondary text-dark"}`} to="/store"> Cửa hàng</NavLink>
+                <NavLink className={({ isActive }) => `nav-link-menu ${isActive ? "active" : "nav-link-menu px-2 "}`} to="/store"> Cửa hàng</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className={({ isActive }) => `nav-link ${isActive ? "active" : "nav-link px-2 text-body-secondary text-dark"}`} to="/lesson">Khóa học</NavLink>
+                <NavLink className={({ isActive }) => `nav-link-menu ${isActive ? "active" : "nav-link-menu px-2 "}`} to="/lesson">Khóa học</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className={({ isActive }) => `nav-link ${isActive ? "active" : "nav-link px-2 text-body-secondary text-dark"}`} to="/about">About </NavLink>
+                <NavLink className={({ isActive }) => `nav-link-menu ${isActive ? "active" : " nav-link-menu px-2 "}`} to="/about">About </NavLink>
             </li>
         </>
 

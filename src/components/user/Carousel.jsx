@@ -8,6 +8,7 @@ export default function Carousel() {
             style={{
                 width: "92%",
                 height: "510px",
+                marginBottom: "250px"
             }}
         >
             <div class="carousel-indicators">

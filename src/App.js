@@ -1,12 +1,16 @@
 
 import React from "react";
-import AppRoutes from "./routes/AppRoutes";
+import UserAppRoutes from "./routes/UserAppRoutes";
+import AdminAppRoutes from "./routes/AdminAppRoutes";
+import useAutoLogout from "./hooks/useAutoLogout";
 function App() {
 
 
   return (
     <React.StrictMode>
-      <AppRoutes />
+      {useAutoLogout()}
+      <UserAppRoutes />
+      <AdminAppRoutes />
     </React.StrictMode>
 
 

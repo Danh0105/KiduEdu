@@ -7,6 +7,7 @@ import ROBOT from '../../assets/user/ROBOT.png'
 import DIENLANH from '../../assets/user/DIENLANH.png'
 import MAYTINH from '../../assets/user/MAYTINH.png'
 import DCHT from '../../assets/user/DCHT.png'
+import Carousel from '../../components/user/Carousel';
 
 export default function Home() {
 
@@ -37,6 +38,7 @@ export default function Home() {
 
     return (
         <div>
+            <Carousel />
             <div className='container' >
                 <div className="flex flex-col justify-center items-center" >
                     <div >
@@ -68,22 +70,22 @@ export default function Home() {
                     <div class="row">
                         <div class="col">
                             <a href='/'>
-                                <img style={{ width: "300px", height: "250px" }} src={ROBOT} alt="Logo ROBOT" />
+                                <img className='img-fluid' style={{ width: "300px", height: "250px" }} src={ROBOT} alt="Logo ROBOT" />
                             </a>
                         </div>
                         <div class="col">
                             <a href='/'>
-                                <img style={{ width: "300px", height: "250px" }} src={DIENLANH} alt="Logo DIENLANH" />
+                                <img className='img-fluid' style={{ width: "300px", height: "250px" }} src={DIENLANH} alt="Logo DIENLANH" />
                             </a>
                         </div>
                         <div class="col">
                             <a href='/'>
-                                <img style={{ width: "300px", height: "250px" }} src={MAYTINH} alt="Logo MAYTINH" />
+                                <img className='img-fluid' style={{ width: "300px", height: "250px" }} src={MAYTINH} alt="Logo MAYTINH" />
                             </a>
                         </div>
                         <div class="col">
                             <a href='/'>
-                                <img style={{ width: "300px", height: "250px" }} src={DCHT} alt="Logo DCHT" />
+                                <img className='img-fluid' style={{ width: "300px", height: "250px" }} src={DCHT} alt="Logo DCHT" />
                             </a>
                         </div>
                     </div>
@@ -98,19 +100,19 @@ export default function Home() {
                     <div class="row">
                         <div class="col">
                             <div className='mt-2 mb-2'>
-                                <img style={{ width: "350px", height: "300px" }} src={CDS} alt="Logo công dân số" />
+                                <img className='img-fluid' style={{ width: "350px", height: "300px" }} src={CDS} alt="Logo công dân số" />
                             </div>
 
 
                         </div>
                         <div class="col">
                             <div className='mt-2 mb-2'>
-                                <img style={{ width: "350px", height: "300px" }} src={STEM} alt="Logo STEM" />
+                                <img className='img-fluid' style={{ width: "350px", height: "300px" }} src={STEM} alt="Logo STEM" />
                             </div>
                         </div>
                         <div class="col">
                             <div className='mt-2 mb-2'>
-                                <img style={{ width: "350px", height: "300px" }} src={ROBOT} alt="Logo ROBOT" />
+                                <img className='img-fluid' style={{ width: "350px", height: "300px" }} src={ROBOT} alt="Logo ROBOT" />
                             </div>
                         </div>
 
