@@ -19,7 +19,7 @@ import PrivateRoute from "../components/user/PrivateRoute";
 export default function AppRoutes() {
 
     return (
-        <BrowserRouter basename="/KiduEdu/admin">
+        <BrowserRouter basename="">
             <Routes>
                 <Route path="/dashboard" element={
                     <PrivateRoute allowedRoles={['admin']}>

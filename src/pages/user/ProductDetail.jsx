@@ -39,7 +39,7 @@ export default function ProductDetail() {
 
     const fetchProduct = async () => {
         try {
-            const res = await axios.get(`http://localhost:3000/products/${id}`);
+            const res = await axios.get(`http://163.223.211.23:3000/products/${id}`);
             setProduct(res.data.data);
             const imageUrls = res.data.data.images.map((img) => img.image_url);
             setImages(imageUrls);

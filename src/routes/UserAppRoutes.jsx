@@ -18,7 +18,7 @@ import ProductDetail from "../pages/user/ProductDetail";
 export default function AppRoutes() {
 
     return (
-        <BrowserRouter basename="/KiduEdu">
+        <BrowserRouter basename="">
 
             <Routes>
                 {/* Public routes */}
