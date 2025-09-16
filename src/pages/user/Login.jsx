@@ -25,11 +25,15 @@ export default function Login() {
     const login = async (event) => {
         event.preventDefault();
         try {
+
+
             const res = await fetch('http://163.223.211.23/auth/login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ username, password }),
+                credentials: 'include',
             });
+
 
             const data = await res.json();
             if (res.ok) {
